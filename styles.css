@@ -53,11 +53,23 @@ section {
 }
 
 .service {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
     margin-bottom: 15px;
     padding: 15px;
-    border: 2px solid #b1b1ad; /* Bright yellow, inspired by the South African flag */
+    border: 2px solid #eae9e4; /* Bright yellow */
     border-radius: 10px;
-    background-color: #dcedff; /* Light background for service boxes */
+    background-color: #a3dee9; /* Light background */
+}
+
+.service-image {
+    width: 100px; /* Set a specific width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.service-description {
+    flex-grow: 1; /* Allow the description to take the remaining space */
 }
 
 h2 {
