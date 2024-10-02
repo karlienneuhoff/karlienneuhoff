@@ -59,11 +59,11 @@ section {
     padding: 15px;
     border: 2px solid #eae9e4; /* Bright yellow */
     border-radius: 10px;
-    background-color: #c7e3e8; /* Light background */
+    background-color: #e7ebec; /* Light background */
 }
 
 .service-image {
-    width: 150px; /* Set a specific width for images */
+    width: 100px; /* Set a specific width for images */
     height: auto; /* Maintain aspect ratio */
     margin-right: 15px; /* Space between image and text */
 }
