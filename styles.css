@@ -30,7 +30,7 @@ nav a {
 }
 
 .hero {
-    background-image: url('hero-image.jpg'); /* Placeholder for a hero image */
+    background-image: url('pic1.jpg'); /* Placeholder for a hero image */
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -61,14 +61,14 @@ section {
 .service {
     margin-bottom: 15px;
     padding: 15px;
-    border: 1px solid #c8a400; /* Rich Gold border */
+    border: 1px solid #00b1c8; /* Rich Gold border */
     border-radius: 10px;
     background-color: #f9f9f9; /* Light service background */
 }
 
 h2 {
-    color: #c8a400; /* Rich Gold */
-    border-bottom: 2px solid #c8a400; /* Underline */
+    color: #7768ff; /* Rich Gold */
+    border-bottom: 2px solid #26725b; /* Underline */
     padding-bottom: 10px;
 }
 
