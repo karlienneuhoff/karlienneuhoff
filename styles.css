@@ -3,16 +3,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background: #35424a;
+    background: #35424a; /* Deep Blue */
     color: #ffffff;
-    padding: 10px 20px;
-}
-
-header h1 {
-    margin: 0;
+    padding: 20px;
+    text-align: center;
 }
 
 nav ul {
@@ -22,7 +20,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin: 0 15px;
 }
 
 nav a {
@@ -34,23 +32,26 @@ main {
     padding: 20px;
 }
 
-.tour-list, .guide-list {
-    display: flex;
-    flex-direction: column;
-}
-
-.tour, .guide {
-    background: #ffffff;
-    margin: 10px 0;
+section {
+    margin-bottom: 30px;
+    background: #ffffff; /* Neutral background */
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.service {
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #c8a400; /* Rich Gold */
+}
+
 footer {
     text-align: center;
     padding: 10px;
-    background: #35424a;
+    background: #35424a; /* Deep Blue */
     color: #ffffff;
     position: relative;
     bottom: 0;
