@@ -1,16 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e7f2f8; /* Light background */
     color: #333;
 }
 
 header {
-    background: #35424a; /* Deep Blue */
+    background: #3b8e3a; /* Softer Deep Green */
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    border-radius: 0 0 20px 20px;
 }
 
 nav ul {
@@ -28,6 +29,16 @@ nav a {
     text-decoration: none;
 }
 
+.hero {
+    background-image: url('hero-image.jpg'); /* Placeholder for a hero image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
 main {
     padding: 20px;
 }
@@ -35,25 +46,36 @@ main {
 section {
     margin-bottom: 30px;
     background: #ffffff; /* Neutral background */
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.guide-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .service {
     margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #c8a400; /* Rich Gold border */
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light service background */
 }
 
 h2 {
     color: #c8a400; /* Rich Gold */
+    border-bottom: 2px solid #c8a400; /* Underline */
+    padding-bottom: 10px;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background: #35424a; /* Deep Blue */
+    background: #3b8e3a; /* Softer Deep Green */
     color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    border-radius: 20px 20px 0 0;
 }
