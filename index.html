@@ -1,26 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-
-#grad1 {
-  height: 500px;
-  background-color: #FFEFD5; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#FFEFD5, #556B2F);
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Tours</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<div id="grad1">
-
-<h1  style="color:grey;">Linear Gradient - Top to Bottom</h1>
-<p>This linear gradient starts red at the top, transitioning to yellow at the bottom:</p>
-
-<p><a href="sitehome.html">HTML Images</a></p>
-
-</div>
-
+    <header>
+        <h1>Explore Tours</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="guides.html">Our Guides</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Our Popular Tours</h2>
+            <div class="tour-list">
+                <article class="tour">
+                    <h3>Mountain Adventure</h3>
+                    <p>Experience the thrill of mountain climbing with our expert guides.</p>
+                    <a href="tours.html#mountain-adventure">Learn More</a>
+                </article>
+                <article class="tour">
+                    <h3>City Sightseeing</h3>
+                    <p>Discover the hidden gems of the city with our local guides.</p>
+                    <a href="tours.html#city-sightseeing">Learn More</a>
+                </article>
+                <article class="tour">
+                    <h3>Beach Getaway</h3>
+                    <p>Relax on pristine beaches with our exclusive beach packages.</p>
+                    <a href="tours.html#beach-getaway">Learn More</a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Explore Tours. All rights reserved.</p>
+    </footer>
 </body>
 </html>
