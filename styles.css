@@ -55,9 +55,9 @@ section {
 .service {
     margin-bottom: 15px;
     padding: 15px;
-    border: 2px solid #fdd835; /* Bright yellow, inspired by the South African flag */
+    border: 2px solid #b1b1ad; /* Bright yellow, inspired by the South African flag */
     border-radius: 10px;
-    background-color: #fff8dc; /* Light background for service boxes */
+    background-color: #dcedff; /* Light background for service boxes */
 }
 
 h2 {
