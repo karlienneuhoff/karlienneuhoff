@@ -85,3 +85,20 @@ footer {
     color: #ffffff;
     border-radius: 20px 20px 0 0;
 }
+
+.guide {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.guide-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.guide h3, .guide p {
+    margin: 0;
+}
