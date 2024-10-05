@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light grey for a more professional background */
+    color: #333;
+}
+
+header {
+    background: #007A33; /* Dark green, inspired by the South African flag */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('images/pic1.JPG'); /* Placeholder for a hero image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background: #ffffff; /* Neutral background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slightly softer shadow */
+}
+
+.service {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 2px solid #eae9e4; /* Bright yellow */
+    border-radius: 10px;
+    background-color: #e7ebec; /* Light background */
+}
+
+.service-image {
+    width: 100px; /* Set a specific width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.service-description {
+    flex-grow: 1; /* Allow the description to take the remaining space */
+}
+
+h2 {
+    color: #0056A1; /* Blue from the South African flag */
+    border-bottom: 2px solid #0056A1; /* Underline */
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007A33; /* Dark green */
+    color: #ffffff;
+    border-radius: 20px 20px 0 0;
+}
