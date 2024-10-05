@@ -48,8 +48,8 @@ section {
     margin-bottom: 30px;
     background: #ffffff; /* Neutral background */
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slightly softer shadow */
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.412); /* Slightly softer shadow */
 }
 
 .service {
@@ -73,8 +73,14 @@ section {
 }
 
 h2 {
-    color: #0056A1; /* Blue from the South African flag */
-    border-bottom: 2px solid #0056A1; /* Underline */
+    color: #0ca92e; /* Blue from the South African flag */
+    border-bottom: 2px solid #0056a100; /* Underline */
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: #ffffff; /* Blue from the South African flag */
+    border-bottom: 2px solid #0056a100; /* Underline */
     padding-bottom: 10px;
 }
 
