@@ -34,40 +34,45 @@
         </section>
 
         <section id="services">
-                <h2>Our Services</h2>
-                
-                <div class="service">
-                    <img src="images/ost.jpg" alt="Wildlife Safari" class="service-image">
+            <h2>Our Services</h2>
+            <div class="slideshow-container">
+                <div class="service-slide">
+                    <img src="images/ost.jpg" alt="Wildlife Safari" class="slideshow-image">
                     <div class="service-description">
                         <h3>Wildlife Safari</h3>
                         <p>Experience the thrill of spotting the Big Five in their natural habitat.</p>
                     </div>
                 </div>
-            
-                <div class="service">
-                    <img src="images/culture.jpg" alt="Cultural Tours" class="service-image">
+        
+                <div class="service-slide">
+                    <img src="images/culture.jpg" alt="Cultural Tours" class="slideshow-image">
                     <div class="service-description">
                         <h3>Cultural Tours</h3>
-                        <p>Discover the rich history and vibrant culture of South Africa./p>
+                        <p>Discover the rich history and vibrant culture of South Africa.</p>
                     </div>
                 </div>
-            
-                <div class="service">
-                    <img src="images/braai.jpg" alt="Culinary Experiences" class="service-image">
+        
+                <div class="service-slide">
+                    <img src="images/braai.jpg" alt="Culinary Experiences" class="slideshow-image">
                     <div class="service-description">
                         <h3>Culinary Experiences</h3>
                         <p>Indulge in local cuisine and discover the flavors of South Africa.</p>
                     </div>
                 </div>
-            
-                <div class="service">
-                    <img src="images/getaway.jpg" alt="South African stays" class="service-image">
+        
+                <div class="service-slide">
+                    <img src="images/getaway.jpg" alt="South African stays" class="slideshow-image">
                     <div class="service-description">
                         <h3>South African stays</h3>
                         <p>Relax and take in the beautiful landscape of South Africa.</p>
                     </div>
                 </div>
-        </section>
+        
+                <!-- Slideshow Controls -->
+                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            </div>
+        </section>        
 
         <section id="guides">
             <h2>Meet Our Guides</h2>
@@ -81,5 +86,31 @@
     <footer>
         <p>&copy; 2024 Unique South African Tours. All rights reserved.</p>
     </footer>
+
+
+    <script>
+        let slideIndex = 0;
+        showSlide(slideIndex);
+    
+        function changeSlide(n) {
+            showSlide(slideIndex += n);
+        }
+    
+        function showSlide(n) {
+            const slides = document.getElementsByClassName('service-slide');
+            if (n >= slides.length) {
+                slideIndex = 0;
+            }
+            if (n < 0) {
+                slideIndex = slides.length - 1;
+            }
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = 'none';
+            }
+            slides[slideIndex].style.display = 'flex'; // Show the active slide
+        }
+    </script>
+    
+
 </body>
 </html>
