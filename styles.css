@@ -112,21 +112,34 @@ footer {
 
 .service-slide {
     display: none;
-    align-items: center;
-    justify-content: center;
-    position: relative; /* Ensure arrows are positioned relative to each slide */
-}
-
-.slideshow-image {
-    width: 50%; /* Big image on the left */
-    height: auto;
-    margin-right: 20px;
     position: relative;
 }
 
-.service-description {
-    flex-grow: 1;
-    max-width: 50%; /* Ensure text takes up remaining width */
+.slideshow-image {
+    width: 100%; /* Make the image fill the container */
+    height: 70vh; /* Make the image taller, you can adjust as needed */
+    object-fit: cover; /* Ensure the image covers the entire container without distortion */
+}
+
+.service-description-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for text */
+    color: white;
+    padding: 20px;
+    text-align: left;
+    max-width: 50%; /* Adjust this value to control the width of the text block */
+}
+
+.service-description-overlay h3 {
+    margin: 0 0 10px 0;
+    font-size: 2em;
+}
+
+.service-description-overlay p {
+    font-size: 1.2em;
 }
 
 .prev, .next {
@@ -134,21 +147,21 @@ footer {
     top: 50%;
     transform: translateY(-50%);
     padding: 16px;
-    color: white;
+    color: rgba(255, 255, 255, 0.196);
     font-weight: bold;
     font-size: 24px;
-    background-color: rgba(255, 255, 255, 0.4); /* Slightly transparent white background */
+    background-color: rgba(255, 255, 255, 0.449); /* Slightly transparent white background */
     border-radius: 50%;
     cursor: pointer;
     user-select: none;
 }
 
 .prev {
-    left: 5%;
+    left: 10px;
 }
 
 .next {
-    right: 5%;
+    right: 10px;
 }
 
 .prev:hover, .next:hover {
