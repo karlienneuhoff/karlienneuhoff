@@ -6,17 +6,10 @@ body {
     color: #333;
 }
 
-.wrapper {
-    max-width: 1200px; /* Adjust to the desired width */
-    margin: 0 auto; /* Center the content */
-    padding: 0 20px; /* Add a small padding to the sides */
-}
-
 header {
     background: #007A33; /* Dark green, inspired by the South African flag */
     color: #ffffff;
-    padding: 40px 20px;
-    margin: 0 auto;
+    padding: 20px;
     text-align: center;
     border-radius: 0 0 20px 20px;
 }
@@ -48,7 +41,7 @@ nav a {
 }
 
 main {
-    padding: 0 20px;
+    padding: 20px;
 }
 
 section {
@@ -57,9 +50,6 @@ section {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slightly softer shadow */
-    padding: 40px 0; /* More padding on top and bottom */
-    margin: 0 auto;
-    width: 100%;
 }
 
 .service {
@@ -176,12 +166,4 @@ footer {
 
 .prev:hover, .next:hover {
     background-color: rgba(255, 255, 255, 0.7); /* Increase opacity on hover */
-}
-
-@media (min-width: 1200px) {
-    section, header, footer {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 20px; /* More white space on the sides */
-    }
 }
