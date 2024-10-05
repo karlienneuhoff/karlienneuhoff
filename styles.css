@@ -31,7 +31,7 @@ nav a {
 }
 
 .hero {
-    background-image: url('images/pic1.JPG'); /* Placeholder for a hero image */
+    background-image: url('images/pexels-taryn-elliott-5213948.jpg'); /* Placeholder for a hero image */
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -147,10 +147,10 @@ footer {
     top: 50%;
     transform: translateY(-50%);
     padding: 16px;
-    color: rgba(255, 255, 255, 0.196);
+    color: rgba(255, 255, 255, 0.808);
     font-weight: bold;
     font-size: 24px;
-    background-color: rgba(255, 255, 255, 0.449); /* Slightly transparent white background */
+    background-color: rgba(0, 0, 0, 0.092); /* Slightly transparent white background */
     border-radius: 50%;
     cursor: pointer;
     user-select: none;
