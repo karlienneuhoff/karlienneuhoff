@@ -9,9 +9,10 @@ body {
 header {
     background: #007A33; /* Dark green, inspired by the South African flag */
     color: #ffffff;
-    padding: 20px;
+    padding: 1px;
     text-align: center;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 0px 0px;
+    margin: 0px;
 }
 
 nav ul {
@@ -73,13 +74,13 @@ section {
 }
 
 h2 {
-    color: #0ca92e; /* Blue from the South African flag */
+    color: #0ca92e;
     border-bottom: 2px solid #0056a100; /* Underline */
     padding-bottom: 10px;
 }
 
 h1 {
-    color: #ffffff; /* Blue from the South African flag */
+    color: #0ca92e;
     border-bottom: 2px solid #0056a100; /* Underline */
     padding-bottom: 10px;
 }
